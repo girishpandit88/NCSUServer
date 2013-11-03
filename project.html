@@ -1,0 +1,242 @@
+<!doctype html>
+<head>
+<meta charset="utf-8">
+<title>Girish Pandit</title>
+<meta name="description" content="description here">
+<meta name="author" content="content here">
+<link rel="stylesheet" href="css/style.css">
+<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<style type="text/css">
+<!--
+body {
+	background-image: url(images/bg.jpg);
+}
+-->
+</style>
+</head>
+<body>
+	<!--start header -->
+
+	<div id="header-container">
+		<header class="wrapper">
+			<div id="logo">
+				<img src="images/ncsu.png" alt="Logo here" width="180" height="178">
+			</div>
+
+			<!--start navigation -->
+			<nav></nav>
+
+		</header>
+		<form class="searchform">
+			<input class="searchfield" type="text" value="Search..."
+				onFocus="if (this.value == 'Search...') {this.value = '';}"
+				onBlur="if (this.value == '') {this.value = 'Search...';}" /> <input
+				class="searchbutton" type="button" value="Go" />
+		</form>
+		<h2 id="sitename">
+			Girish A Pandit
+			</h1>
+	</div>
+
+	<div id="nav">
+		<div class="button">
+			<a href="index.html">Home</a>
+		</div>
+		<div class="button">
+			<a href="courses.html">Courses</a>
+		</div>
+		<div class="button">
+			<a href="project.html">Projects</a>
+		</div>
+		<div class="button">
+			<a href="blog.html">Blogs</a>
+		</div>
+		<div class="button">
+			<a href="gadgets.html">Gadgets</a>
+		</div>
+		<div class="button">
+			<a href="about.html">About</a>
+		</div>
+	</div>
+	<!--end navigation -->
+	<!--end header -->
+	<!--start main content -->
+	<div id="main" class="wrapper">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Projects</title>
+		<link rel="SHORTCUT ICON" href="images/ncsu_125.png" />
+		<link type="text/css" href="css/blitzer/jquery-ui-1.8.13.custom.css"
+			rel="stylesheet" />
+		<script type="text/javascript" src="js/jquery-1.5.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui-1.8.13.custom.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+
+				// Accordion
+				jQuery("#accordion1").accordion({ header: "h5",autoHeight: false,navigation: true,collapsible: true});
+				jQuery("#accordion2").accordion({ header: "h6",autoHeight: false,navigation: true,collapsible: true});
+				jQuery("#accordion3").accordion({ header: "h6",autoHeight: false,navigation: true,collapsible: true});
+				jQuery("#accordion4").accordion({ header: "h6",autoHeight: false,navigation: true, event: "mouseover"});
+	
+				// Tabs
+				$('#tabs').tabs({event: "mouseover"});});
+				//Overlay
+				$(document).ready(function() {$("img[rel]").overlay();});
+				
+			</script>
+		<style type="text/css">
+/*demo page css*/
+body {
+	font: 80% "Segoe UI", sans-serif;
+	margin: 50px;
+	text-align: left;
+}
+</style>
+		</head>
+
+		<div id="accordion1">
+			<br>
+			<h5>
+				<a href="#">Sempahores</a>
+			</h5>
+			<div>
+				<p align="justify">A locking protocol mechanism to solve the
+					reader/writers problem was implemented with priority inheritance to
+					solve the priority inversion between processes with different
+					priorities for the XINU OS.</p>
+			</div>
+			<h5>
+				<a href="#">Scheduler</a>
+			</h5>
+			<div>
+				<p align="justify">For improving the scheduling of processes in
+					the XINU OS, designed two scheduling implementations - random
+					(fair-policy) and Linux (goodness measure) scheduler.</p>
+			</div>
+			<h5>
+				<a href="#">Demand paging</a>
+			</h5>
+			<div>
+				<p align="justify">Implemented demand paging for XINU OS. Also
+					designed a FCFS and Second Chance page replacement policy for
+					swapping pages in and out of backing stores to physical memory.</p>
+			</div>
+			<h5>
+				<a href="#">Queue simulation</a>
+			</h5>
+			<div>
+				<p align="justify">Successfully simulated queuing behavior of
+					30000 odd packets over single server queue to gather statictics
+					which can be used to ensure efficient bandwidth by considering the
+					end to end daly of these packets over five queues.</p>
+			</div>
+			<h5>
+				<a href="#">MPLS Simulation</a>
+			</h5>
+			<div>
+				<p align="justify">
+					Using GNS3 simulator carried out different kind(ATM, ATOM, etc) of
+					traffics over MPLS network on <i>Cisco </i> routers
+				</p>
+			</div>
+			<h5>
+				<a href="#">Jboss Framework-Working with business processes and
+					enterprise service bus</a>
+			</h5>
+			<div>
+				<p align="justify">Implemented a travel booking system where
+					air-service, hotel-service, and ticket-service communicated with
+					each other using the Jboss architecture. Also dependencies were
+					implemented(for e.g. if air service and hotel succeed then fail the
+					booking service etc.) for the three service</p>
+			</div>
+			<h5>
+				<a href="#">Gmail visualization</a>
+			</h5>
+			<div>
+				<p align="justify">Using a servlets, JSP and JavaScript charting
+					libraries analysis of inbox of a Gmail account implemented. Java
+					mail API used to interact with Gmail Server. Once connection is
+					established analysis is carried out from various perspectives to
+					produce interesting charts and analysis about the user email
+					activity.</p>
+			</div>
+			<h5>
+				<a href="#">User level and kernel level exploits - Cent OS</a>
+			</h5>
+			<div>
+				<p align="justify">Written two exploits - one at user level
+					which exploits the strcpy() function of C library and gains root
+					access by buffer overflow attack. Second which loads a kernel
+					module and does a kernel level overflow using unsafe kernel level
+					function thereby gaining access of system at kernel level.</p>
+			</div>
+			<h5>
+				<a href="#">Open source projects</a>
+			</h5>
+			<div>
+				<p align="justify">Worked on three open source project related
+					to expertiza system used by NC-State university Professor Ed
+					Gehringer. Implemented logging functionality for expertiza and
+					implemented a module to let the user advertise for partners for
+					course assignement within expertiza. The coding was done using Ruby
+					on Rails - MVC architecture.</p>
+			</div>
+			<h5>
+				<a href="#">LUMINA- Laser Aided Mouse Controller</a>
+			</h5>
+			<div>
+				<p align="justify">To increase the mobility of the presented
+					implemented C# project which simulates mouse movements from laser
+					projected on wall. The camera tracks the Laser movements and then
+					the algorithm detects the brightest point from the start till the
+					end of the movement and correspondingly simulates mouse cursor
+					movements. Also a back propagation neural network was implemented
+					to recognize the mouse events like click, scroll etc from the
+					gestures made from the laser</p>
+			</div>
+
+			<h5>
+				<a href="#">MANET for Android networks</a>
+			</h5>
+			<div>
+				<p align="justify">Designed a ad-hoc routing protocol for
+					Android based phones. The routing algorithm was tested on a custom
+					developed chat application which could trace the route from source
+					to destination and back</p>
+			</div>
+
+			<h5>
+				<a href="#">Early warning intrusion detection system using
+					HoneyD Honeypot</a>
+			</h5>
+			<div>
+				<p align="justify">Submitted a paper for early warning intrusion
+					detection system designed usng honeyd farmework which saves
+					deployement costs and can implement thousands of IP's using a
+					single vitual honeypot, instead of using a conventional honeypot
+					framework.</p>
+			</div>
+
+		</div>
+		<br />
+		<hr />
+		<br />
+
+	</div>
+	<!--end main content -->
+	<!--start footer -->
+	<div id="footer-container">
+		<footer class="wrapper">
+			<div class="copy">
+				<a href="http://ncsu.edu" target="_blank">NCSU</a> &copy; Powered by
+				<a href="http://www.ncsu.edu">NCSU</a> | ©2011 Girish Pandit. All
+				rights reserved.
+			</div>
+			<!--end footer nav -->
+		</footer>
+	</div>
+	<!--end footer -->
+	<!-- Free template distributed by http://freehtml5templates.com -->
+</body>
+</html>

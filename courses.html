@@ -1,0 +1,325 @@
+<!doctype html>
+<head>
+<meta charset="utf-8">
+<title>Girish Pandit</title>
+<meta name="description" content="description here">
+<meta name="author" content="content here">
+<link rel="stylesheet" href="css/style.css">
+<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<link rel="SHORTCUT ICON" href="images/ncsu_125.png" />
+<link type="text/css" href="css/blitzer/jquery-ui-1.8.13.custom.css"
+	rel="stylesheet" />
+<script type="text/javascript" src="js/jquery-1.5.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.8.13.custom.min.js"></script>
+<script type="text/javascript">
+			$(function(){
+
+				// Accordion
+				$("#accordion1").accordion({ header: "h5",autoHeight: false,collapsible: true,active: false});
+				$("#accordion2").accordion({ header: "h6",autoHeight: false,collapsible: true,active: true});
+				$("#accordion3").accordion({ header: "h5",autoHeight: false,collapsible: true,active: true});
+				$("#accordion4").accordion({ header: "h6",autoHeight: false,collapsible: true,active: false});
+				$("#accordion5").accordion({ header: "h5",autoHeight: false,collapsible: true,active: true});
+				$("#accordion6").accordion({ header: "h6",autoHeight: false,collapsible: true,active: false});
+				$("#accordion7").accordion({ header: "h5",autoHeight: false,collapsible: true,active: false});
+				$("#accordion8").accordion({ header: "h6",autoHeight: false,collapsible: true,active: false});
+				// Tabs
+				$('#tabs').tabs({event: "mouseover"});});
+				//Overlay
+				$(document).ready(function() {$("img[rel]").overlay();});
+				
+		</script>
+<style type="text/css">
+/*demo page css*/
+body {
+	font: 80% "Segoe UI", sans-serif;
+	margin: 50px;
+	text-align: left;
+}
+</style>
+
+</head>
+<body>
+	<!--start header -->
+
+	<div id="header-container">
+		<header class="wrapper">
+			<div id="logo">
+				<img src="images/ncsu.png" alt="Logo here" width="180" height="178">
+			</div>
+
+			<!--start navigation -->
+			<nav></nav>
+
+		</header>
+		<form class="searchform">
+			<input class="searchfield" type="text" value="Search..."
+				onFocus="if (this.value == 'Search...') {this.value = '';}"
+				onBlur="if (this.value == '') {this.value = 'Search...';}" /> <input
+				class="searchbutton" type="button" value="Go" />
+		</form>
+		<h2 id="sitename">
+			Girish A Pandit
+			</h1>
+	</div>
+
+	<div id="nav">
+		<div class="button">
+			<a href="index.html">Home</a>
+		</div>
+		<div class="button">
+			<a href="courses.html">Courses</a>
+		</div>
+		<div class="button">
+			<a href="project.html">Projects</a>
+		</div>
+		<div class="button">
+			<a href="blog.html">Blogs</a>
+		</div>
+		<div class="button">
+			<a href="gadgets.html">Gadgets</a>
+		</div>
+		<div class="button">
+			<a href="about.html">About</a>
+		</div>
+	</div>
+	<!--end navigation -->
+	<!--end header -->
+	<!--start main content -->
+	<div id="main" class="wrapper">
+		<br>
+		<div id="accordion1">
+			<h5>
+				<a href="#">Semester I</a>
+			</h5>
+			<div id="accordion2">
+				<div>
+					<h6>
+						<a href="#">Operating System</a>
+					</h6>
+					<p>
+						<a href="http://courses.ncsu.edu/csc501/">CSC-501 Operating
+							System</a> Fundamental issues related to the design of operating
+						systems. Process scheduling and coordination, deadlock, memory
+						management and elements of distributed systems.
+					</p>
+				</div>
+				<div>
+					<h6>
+						<a href="#">Computer Networks</a>
+					</h6>
+					<p>
+						<a href="http://courses.ncsu.edu/csc570/">CSC-570 Computer
+							Networks-</a> General introduction to computer networks. Discussion
+						of protocol principles, local area and wide area networking, OSI
+						stack, TCP/IP and quality of service principles. Detailed
+						discussion of topics in medium access control, error control
+						coding, and flow control mechanisms. Introduction to networking
+						simulation, security, wireless and optical networking.
+					</p>
+				</div>
+				<div>
+					<h6>
+						<a href="#">Network Security</a>
+					</h6>
+					<p>
+						<a href="http://courses.ncsu.edu/csc574/">CSC-574
+							NetworkSecurity</a> Security policies, models, and mechanisms for
+						secrecy, integrity, and availability. Basic cryptography and its
+						applications; operating system models and mechanisms for mandatory
+						and discretionary controls; introduction to database security;
+						securityin distributed systems; network security (firewalls,
+						IPsec, and SSL); and control and prevention of viruses and other
+						rogue programs.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div id="accordion3">
+			<h5>
+				<a href="#">Semester II</a>
+			</h5>
+			<div id="accordion4">
+				<div>
+					<h6>
+						<a href="#">Wireless Networks</a>
+					</h6>
+					<p>
+						<a href="http://courses.ncsu.edu/ece575/">CSC-575 Wireless
+							Networks</a> Introduction to cellular communications, wireless local
+						area networks, ad-hoc and IP infrastructures. Topics include:
+						cellular networks, mobility management, connection admission
+						control algorithms, mobility models, wireless IP networks, ad-hoc
+						routing, sensor networks, quality of service, and wireless
+						security.
+					</p>
+
+				</div>
+				<div>
+					<h6>
+						<a href="#">Connection Oriented Networks</a>
+					</h6>
+					<p>
+						<a href="http://courses.ncsu.edu/csc576/">CSC-576 Connection
+							Oriented Networks</a> Topics related to connection-oriented packet
+						network architectures, such as: frame relay, the asynchronous
+						transfer mode(ATM), multi-protocol label switching (MPLS), and
+						generalized multi-protocol label swiching (GMPLS), signalling
+						protocols, and related quality-of-service issues.
+					</p>
+				</div>
+				<div>
+					<h6>
+						<a href="#">Service Oriented Computing</a>
+					</h6>
+					<p>
+						<a href="http://courses.ncsu.edu/csc750/">CSC-750 Service
+							Oriented Computing</a>- Concepts, theories, and techniques for
+						computing with services. This course examines architectures for
+						Web applications based on the classical publish, find, and bind
+						triangle, but formulates it at a higher level. It considers
+						sophisticated approaches for the description, discovery, and
+						engagement of services, especially over the Web and the Grid. This
+						course emphasizes service composition. Key topics include
+						semantics, transactions, processes, agents, quality of service,
+						compliance, and trust.
+					</p>
+				</div>
+				<div>
+					<h6>
+						<a href="#">Project Management</a>
+					</h6>
+					<p>
+						<a href="http://courses.ncsu.edu/MBA554/">MBA554 Project
+							Management</a> Life cycle view of organizing and managing technical
+						projects, including project selection, planning, and execution.
+						Methods for managing and controlling project costs, schedules, and
+						scope. techniques for assessing project risk. Use of popular
+						project management software tools. Application of project
+						management tools and methods to product development, software, and
+						process reengineering projects.
+					</p>
+				</div>
+			</div>
+			<!-- accordion1 closed -->
+		</div>
+		<div id="accordion5">
+			<h5>
+				<a href="#">Semester III</a>
+			</h5>
+			<div id="accordion6">
+				<div>
+					<h6>
+						<a href="#">Object Oriented Languages and Systems</a>
+					</h6>
+					<p>
+						<a href="http://courses.ncsu.edu/ece575/">CSC-517 OOLS</a>
+						Object-oriented languages and systems built with object-oriented
+						software components. Object-oriented design methodologies, such as
+						CRC cards and the Unified Modeling Language (UML). Requirement
+						analysis. Design patterns. Agile methods. Object-oriented
+						programming environments, such as the Eclipse platform. Platforms
+						for Web services, such as J2EE. Project required.
+					</p>
+
+				</div>
+				<div>
+					<h6>
+						<a href="#">Database Management Systems</a>
+					</h6>
+					<p>
+						<a href="http://courses.ncsu.edu/csc576/">CSC-540 DBMS</a>
+						Advanced database concepts. Logical organization of databases: the
+
+						entity-relationship model; the relational data model and its
+						languages. Functional dependencies and normal forms. Design,
+						implementation, and optimization of query languages; security and
+						integrity, consurrency control, transaction processing, and
+						distributed database systems.
+					</p>
+				</div>
+				<div>
+					<h6>
+						<a href="#">Operating System Security</a>
+					</h6>
+					<p>
+						<a href="http://courses.ncsu.edu/csc750/">CSC-705 Operating
+							System Security</a> Fundamentals and advanced topics in operating
+						system (OS) security. Study OS level mechanisms and policies in
+						investigating and defending against real-world attacks on computer
+						systems, such as self-propagating worms, stealthy rootkits and
+						large-scale botnets. OS security techniques such as
+						authentication, system call monitoring, as well as memory
+						protection. Introduce recent advanced techniques such as
+						system-level randomization and hardware virtualization.
+					</p>
+				</div>
+				<div>
+					<h6>
+						<a href="#">Web Visualization 2.0</a>
+					</h6>
+					<p>
+						<a href="http://csc761.blogspot.com">CSC-591 Web Viz. 2.0</a> An
+						intensive introduction to the design and development of web
+						visualizations. By the course's end, student teams will implement
+						a working, interactive visualization website, using html5 or a
+						similar API. Students will learn process, starting with finding
+						and cleaning data, designing and prototyping a visualization,
+						implementing that visualization, and ending with evaluation;
+						principles from both perception and Gestalt psychology; technique,
+						for spatial, geospatial, high dimensional, graph and textual data;
+						interaction, including selection and querying, exploring and
+						walking, zooming and details on demand, as well as linking and
+						brushing; evaluation with both formal and informal experimental
+						designs; tools including html5, ManyEyes, prefuse and Flare, d3,
+						Processing and Google Charts; and research frontiers, including
+						visualization effectiveness, casual visualization, and mobile
+						visualization. RTP experts from companies such as SAS, IBM and
+						Allscripts will visit to provide real world context.
+					</p>
+				</div>
+			</div>
+			<!-- accordion1 closed -->
+
+		</div>
+		<div id="accordion7">
+			<h5>
+				<a href="#">Semester IV</a>
+			</h5>
+			<div id="accordion8">
+				<div>
+					<h6>
+						<a href="#">Design and Analysis of Algorithms</a>
+					</h6>
+					<p>
+						<a href="http://courses.ncsu.edu/csc505/">CSC-505 DAOA</a>
+						Algorithm design techniques: use of data structures, divide and
+						conquer, dynamic programming, greedy techniques, local and global
+						search. Complexity and analysis of algorithms: asymptotic
+						analysis, worst case and average case, recurrences, lower bounds,
+						NP-completeness. Algorithms for classical problems including
+						sorting, searching and graph problems (connectivity, shortest
+						paths, minimum spanning trees).
+					</p>
+
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+	<!--end main content -->
+	<!--start footer -->
+	<div id="footer-container">
+		<footer class="wrapper">
+			<div class="copy">
+				<a href="http://ncsu.edu" target="_blank">NCSU</a> &copy; copyright
+				ncsu.edu
+			</div>
+			<!--end footer nav -->
+		</footer>
+	</div>
+	<!--end footer -->
+	<!-- Free template distributed by http://freehtml5templates.com -->
+</body>
+</html>
